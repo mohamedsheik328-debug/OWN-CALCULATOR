@@ -55,5 +55,6 @@ button:hover{
   .outerbox{
     max-width:50%;
    .display{
-    max-width:10%;
+    width:100px;
+     padding:10px;
 }
