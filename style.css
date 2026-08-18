@@ -54,5 +54,6 @@ button:hover{
 @media (max-width: 760px) {
   .outerbox{
     max-width:50%;
-
+   .display{
+     max-width:autofill;
 }
