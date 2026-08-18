@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.innerbox{
+display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+}
+
+.display{
+background-color:white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.btn-number{
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 9px;
+}
+.btn-operator{
+  background-color: orange;
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+.outerbox{
+  border: 2px solid black;
+  padding: 60px 20px;
+  border-radius: 10px;
+  background-color: bisque;
+}
+button:hover{
+ opacity: 0.7;
+ transition: 0.3s;
+}
+.btn-equals{
+  padding:6px ;
+  background-color: lightgray;
+  border-radius: 8px;
+}
+.clear{
+  padding:6px ;
+  background-color: lightgray;
+  border-radius: 8px;
+}
