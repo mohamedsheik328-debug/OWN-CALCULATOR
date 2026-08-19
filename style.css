@@ -52,6 +52,12 @@ button:hover{
   border-radius: 8px;
 }
 @media (max-width: 760px) {
-  .outerbox{
-    max-width:50%;
+    .display {
+    width: 100%;
+    box-sizing: border-box;
+}
+.outerbox {
+    width: 400px;
+    max-width: 90%;
+}
 }
